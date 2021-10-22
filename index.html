@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GEOG 495 LAB 02 EXAMPLE</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html">Kages</a>
+        <a href="section1.html">Villages</a>
+        <a href="section2.html">Community</a>
+        <a href="section3.html">About</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h2>Naruto/Boruto Current World Leaders Table</h2>
+        <p>The world leaders also known as <strong>"Kages"</strong> in the world of Naruto/Boruto are highly respected and trusted individuals that are seen as protectors and guiders towards a better future. This table presents the current kages that are available as of the show's current airing time.</p>
+
+        <table>
+        <tr>
+            <th>Village Leader Title</th>
+            <th>Land Ownership</th>
+            <th>Current Kages</th>
+        </tr>
+        <tr>
+            <td>Hokage</td>
+            <td>Land of Fire</td>
+            <td>Naruto Uzumaki (7th)</td>
+        </tr>
+        <tr>
+            <td>Tsuchikage</td>
+            <td>Land of Earth</td>
+            <td>Kurotsuchi (4th)</td>
+        </tr>
+        <tr>
+            <td>Mizukage</td>
+            <td>Land of Water</td>
+            <td>Chojuro (6th)</td>
+        </tr>
+        <tr>
+            <td>Kazekage</td>
+            <td>Land of Wind</td>
+            <td>Gaara (5th)</td>
+        </tr>
+        <tr>
+            <td>Raikage</td>
+            <td>Land of Lightning</td>
+            <td>Darui (5th)</td>
+        </tr>
+        </table>
+    </div>
+    
+    <h2>Gokage Summit</h2>
+    <p>Below is a slide show the <em>Gokage/5 Kage Summit.</em> The Summit is a meeting between the 5 great nations leaders to talk about potential threats, ways to improve their villages, and other important topics that relate to the ninja world. The first image is the caps that each kage wears as a sign of their leadership to their respected land/nation. The second photo is all 5 of the current kages that are available to date. The following photos are provided to associate a name and their description to a photo for better recognition. In the series so far, the summit have been called a couple of times to discuss the <strong>what's next</strong> after a threat has dawn upon the shinobi world.</p>
+ <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 7</div>
+        <img src="img/Gokage_hats.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 7</div>
+        <img src="img/Kaguya_Kage_Summit.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 7</div>
+        <img src="img/Naruto.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 7</div>
+        <img src="img/Kurotsuchi.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+        <img src="img/Chojuro.png" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+        <img src="img/Gaara.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">7 / 7</div>
+          <img src="img/Darui.png" style="width:100%">
+      </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img/Gokage_hats.png" style="width:100%" onclick="currentSlide(1)" alt="The 5 Kage caps. Representative of their status as leaders.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Kaguya_Kage_Summit.png" style="width:100%" onclick="currentSlide(2)" alt="5 Kage summit. A meeting between the leaders of the great 5 nations.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Naruto.png" style="width:75%" onclick="currentSlide(3)" alt="Naruto Uzumaki. 7th hokage of the village Hidden in the Leaves and leader of the Land of Fire.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Kurotsuchi.png" style="width:75%" onclick="currentSlide(4)" alt="Kurotsuchi. 4th Tsuchikage of the village hidden in the Stones and leader of the Land of Earth.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Chojuro.png" style="width:75%" onclick="currentSlide(5)" alt="Chojuro. 6th Mizukage of the village Hidden in the Mist and leader of the Land of Water.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Gaara.png" style="width:75%" onclick="currentSlide(6)" alt="Gaara. 5th Kazekage of the village Hidden in the Sand and leader of the Land of Wind.">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/Darui.png" style="width:75%" onclick="currentSlide(7)" alt="Darui. 5th Raikage of the village Hidden in the Clouds and leader of the Land of Lightning.">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
